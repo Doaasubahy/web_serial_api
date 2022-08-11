@@ -1,0 +1,30 @@
+.container
+{
+    display: grid;
+    place-items: center;
+}
+.inputBx
+{
+    display: flex;
+    box-shadow:  0 0 4px rgba(0,0,0,.4);
+    margin: 50px;
+    padding: 6px ;
+}
+.inputBx input
+{
+    border: none;
+    padding-right: 9px ;
+    outline: none;
+    height: 40;
+    font-size: 16px;
+    font-weight: italic;
+    font-family: cursive;
+    text-align:right;
+}
+.inputBx .icon
+{
+    display: grid;
+    place-items: center;
+}
+
+
